@@ -31,3 +31,20 @@ h3 {
     color: gray;
     font-size: 1.3125rem;
 }
+
+footer {
+    color: gray;
+    text-align: right;
+}
+
+@media only screen and (max-width: 895px) {
+    .camp{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .camp{
+        width: 550px;
+    }
+}
